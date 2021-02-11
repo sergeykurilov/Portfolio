@@ -1,0 +1,17 @@
+.nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+
+}
+.nav>a{
+    text-decoration: none;
+    color: #000;
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

@@ -1,0 +1,19 @@
+.myWorks{
+    height: 100%;
+}
+.worksContainer{
+    padding-top: 1em;
+}
+
+.myWorksBlock {
+    display: flex;
+    flex-wrap: wrap;
+}
+.myWorksBlockMain{
+    width: 400px;
+    height: 400px;
+}
+.bg{
+    background-image: url("../assets/img/cute-cream-frenchie-is-ready-to-play-prints.jpg");
+    background-size: cover;
+}

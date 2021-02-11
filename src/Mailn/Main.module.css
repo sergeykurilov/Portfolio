@@ -1,0 +1,40 @@
+.mainBlock {
+    height: 100%;
+    background-color: #909090;
+    position: relative;
+}
+
+.particles {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.particles>div{
+    height: inherit !important;
+    width: inherit !important;
+}
+.particles>div>canvas{
+    height: inherit !important;
+    width: inherit !important;
+}
+.greeting {
+    width: 300px;
+    z-index: 2;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.greeting>h1{
+    font-size: 42px;
+
+}
+.photo {
+    width: 300px;
+    height: 400px;
+    z-index: 2;
+    background: url("https://api.time.com/wp-content/uploads/2019/08/better-smartphone-photos.jpg");
+    background-size: cover;
+    border-radius: 2%;
+}
