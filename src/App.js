@@ -3,8 +3,8 @@ import './App.css';
 import {Header} from "./header/Header";
 import {Main} from "./Mailn/Main";
 import {Skills} from "./skills/Skills";
-import {MyWorks} from "./myWorks/myWorks";
-import {HireMe} from "./hireMe/hireMe";
+import {Projects} from "./myProjects/Projects";
+import {Hire} from "./Hire/Hire";
 import {Contacts} from "./contacts/contacts";
 import {Footer} from "./footer/footer";
 
@@ -15,8 +15,8 @@ function App() {
       <Header/>
       <Main/>
       <Skills/>
-      <MyWorks/>
-      <HireMe/>
+      <Projects/>
+      <Hire/>
       <Contacts/>
       <Footer/>
     </div>

@@ -5,16 +5,19 @@ import {Nav} from "../nav/Nav";
 
 export const Footer = () => {
     return (
-        <footer>
+        <div className={st.footer}>
             <div className={st.footerContainer + " " + s.container}>
-                <h1 className="footer-title">Сергей Курилов</h1>
-                <div className={"navBlock"}>
-                    <Nav/>
+                <h1 className={st.title}>Сергей Курилов</h1>
+                <div className={st.socialIcons}>
+                    <div className={st.socialIcon}></div>
+                    <div className={st.socialIcon}></div>
+                    <div className={st.socialIcon}></div>
+                    <div className={st.socialIcon}></div>
                 </div>
-                <p className={"copyright"}>
+                <span className={st.copyright}>
                     Copyright ©2021  Все права защищены
-                </p>
+                </span>
             </div>
-        </footer>
+        </div>
     )
 }
